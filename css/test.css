@@ -1,0 +1,136 @@
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+	--font-family: "Roboto", sans-serif;
+	--second-family: "Raleway", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* img {
+	display: block;
+	max-width: 100%;
+} */
+
+
+address {
+	font-style: normal;
+}
+
+body {
+	font-family: var(--font-family);
+	color: var(--navy-blue);
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+	background-color: var(--navy-blue);
+}
+
+nav {
+  min-width: 100%;
+  height: 72px;
+}
+
+.nav-page {
+/*   background-color: grey; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 156px;
+}
+
+.logo {
+/*   background-color: #fff; */
+  display: flex;
+}
+
+.nav-list {
+/*   background-color: green; */
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-left: 75px;
+}
+
+.right-container {
+/*   border: 4px solid blue; */
+  display: flex;
+  align-items: center;
+}
+
+.address-list {
+  margin: 0;
+/*   background-color: yellow; */
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo, .footer-logo {
+	font-family: var(--second-family);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: var(--iris);
+}
+
+.logo .color {
+	color: var(--navy-blue);
+}
+
+.footer-color {
+	color: var(--cloud);
+}
+
+.nav-list, 
+.address-list {
+	list-style-type: none;
+}
+
+.nav-link {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: var(--navy-blue);
+	}
+
+.nav-link:hover,
+.nav-link:focus {
+	color: var(--ocean);
+}
+
+.address-link {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: var(--slate);
+}
+
+.address-link:hover, 
+.address-link:focus {
+	color: var(--iris);
+}
