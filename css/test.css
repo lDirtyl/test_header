@@ -21,12 +21,6 @@
   box-sizing: border-box;
 }
 
-/* img {
-	display: block;
-	max-width: 100%;
-} */
-
-
 address {
 	font-style: normal;
 }
@@ -34,55 +28,28 @@ address {
 body {
 	font-family: var(--font-family);
 	color: var(--navy-blue);
-  margin: 0;
-  padding: 0;
-}
-
-footer {
-	background-color: var(--navy-blue);
+	margin: 0;
+	padding: 0;
 }
 
 nav {
   min-width: 100%;
-  height: 72px;
 }
 
 .nav-page {
-/*   background-color: grey; */
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 156px;
-}
-
-.logo {
-/*   background-color: #fff; */
-  display: flex;
-}
-
-.nav-list {
-/*   background-color: green; */
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  padding-left: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 156px;
 }
 
 .right-container {
-/*   border: 4px solid blue; */
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-.address-list {
-  margin: 0;
-/*   background-color: yellow; */
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.logo, .footer-logo {
-	font-family: var(--second-family);
+.logo {
+    display: flex;
+    font-family: var(--second-family);
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.2;
@@ -92,36 +59,44 @@ nav {
 	color: var(--iris);
 }
 
-.logo .color {
-	color: var(--navy-blue);
+.color {
+    color: var(--navy-blue);
 }
 
-.footer-color {
-	color: var(--cloud);
-}
-
-.nav-list, 
-.address-list {
-	list-style-type: none;
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-left: 75px;
 }
 
 .nav-link {
-	font-weight: 500;
+    font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	text-decoration: none;
 	color: var(--navy-blue);
-	}
+}
 
 .nav-link:hover,
 .nav-link:focus {
 	color: var(--ocean);
 }
 
+.address-list {
+    margin: 0;
+    /*   background-color: yellow; */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
 .address-link {
-	font-weight: 400;
+    font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
